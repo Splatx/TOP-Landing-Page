@@ -32,6 +32,7 @@ header a {
 .hero-container {
     display: flex;
     justify-content: center;
+    padding-top: 55px;
     padding-bottom: 80px;
     gap: 35px;
 }
@@ -43,7 +44,16 @@ h1 {
 }
 
 .hero-card-1 {
+    max-width: 450px;
+}
 
+.hero-card-1 button {
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 10px;
 }
 
 .hero-card-1 p {
@@ -51,5 +61,8 @@ h1 {
     color: #E5E7EB;
 }
 
+.hero-image {
+    filter: drop-shadow(15px 15px 15px black);
+}
 
 /* Everything above this line is Hero Div CSS */
