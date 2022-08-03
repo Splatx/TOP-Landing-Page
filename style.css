@@ -28,3 +28,28 @@ header a {
 .links a {
     text-decoration: none;
 }
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    gap: 35px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-card-1 {
+
+}
+
+.hero-card-1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* Everything above this line is Hero Div CSS */
