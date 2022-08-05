@@ -1,6 +1,6 @@
 .hero {
     background-color: #1F2937;
-    margin: -8px;
+    margin: -8px -8px 0px -8px;
 }
 
 header {
@@ -61,8 +61,36 @@ h1 {
     color: #E5E7EB;
 }
 
-.hero-image {
-    filter: drop-shadow(15px 15px 15px black);
+.shadow {
+    filter: drop-shadow(15px 15px 15px black); 
 }
 
 /* Everything above this line is Hero Div CSS */
+/* Below this line is Section 2 CSS */
+
+.s2-container {
+    align-items: center;
+}
+
+.s2-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 1em;
+}
+
+.s2-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.s2-card1 {
+    
+}
+
+.small-shadow {
+    filter: drop-shadow(5px 5px 10px black);
+}
