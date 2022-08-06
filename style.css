@@ -84,13 +84,23 @@ h1 {
 .s2-cards {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
 
-.s2-card1 {
-    
+.s2-card {
+    display: flex;
+    max-width: 200px;
+}
+
+.s2-text {
+    text-align: center; 
+    width: 200px;
 }
 
 .small-shadow {
     filter: drop-shadow(5px 5px 10px black);
+}
+
+.center {
+   text-align: center;
 }
