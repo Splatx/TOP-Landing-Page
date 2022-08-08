@@ -160,3 +160,13 @@ h1 {
    color: white;
    border-style: ridge;
 }
+
+/* Section 5 Footer */
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0px;
+}
